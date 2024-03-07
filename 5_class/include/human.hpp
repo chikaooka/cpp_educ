@@ -6,12 +6,12 @@ std::string gender_to_string(Gender gen);
 
 class Human {
 protected:
-    string name;
+    std::string name;
     Gender gender;
 public:
-    Human(string n, Gender gen);
+    Human(std::string n, Gender gen);
     void show();
-    string ret_name();
+    std::string ret_name();
 };
 
 #endif

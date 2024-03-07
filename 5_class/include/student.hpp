@@ -3,9 +3,10 @@
 
 class Student : public Human {
 private:
-    string major;
+    std::string major;
+    int grade;
 public:
-    Student(string n, Gender gen, string m);
+    Student(std::string n, Gender gen, std::string m, int g);
     void show();
 };
 

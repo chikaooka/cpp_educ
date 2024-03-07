@@ -1,18 +1,16 @@
 #include <iostream>
 #include <string>
 #include <vector>
-
-#include "include/human.hpp"
-#include "include/lab.hpp"
-#include "include/student.hpp"
-
 using namespace std;
+#include "include/human.hpp"
+#include "include/student.hpp"
+#include "include/lab.hpp"
 
 int main() {
   Lab westlab("westlab", "25-501");
-  Student chikaoka("chikaoka", male, "network");
+  Student fukui("fukui", male, "network", 2);
   
-  westlab.register_new_student(chikaoka);
+  westlab.register_new_student(fukui);
 
   westlab.show();
   return 0;
