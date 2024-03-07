@@ -2,4 +2,5 @@ build/
 *.out
 *.a 
 *.o
+*.so
 3_array_vector/data

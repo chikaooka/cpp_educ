@@ -8,6 +8,8 @@ private:
 public:
     Student(std::string n, Gender gen, std::string m, int g);
     void show();
+    int ret_grade();
+    void upgrade();
 };
 
 #endif

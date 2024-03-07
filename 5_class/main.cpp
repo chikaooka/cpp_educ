@@ -8,9 +8,18 @@ using namespace std;
 
 int main() {
   Lab westlab("westlab", "25-501");
-  Student fukui("fukui", male, "network", 2);
-  
+
+  Student fukui("fukui", male, "network", 1);
+  Student kozakai("kozakai", female, "agriculture", 1);
+  Student nishikawa("nishikawa", male, "ai", 3);
+
   westlab.register_new_student(fukui);
+  westlab.register_new_student(kozakai);
+  westlab.register_new_student(nishikawa);
+
+  westlab.show();
+
+  westlab.new_year();
 
   westlab.show();
   return 0;

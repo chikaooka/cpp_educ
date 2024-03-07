@@ -1,5 +1,5 @@
 all: directories obj/human.o obj/student.o obj/lab.o obj/main.o
-	g++ -Wall obj/*.o -o bin/program.out
+	g++ -Wall obj/*.o -o bin/program.out -g
  
 directories:
 	@mkdir -p obj

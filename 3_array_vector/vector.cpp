@@ -22,5 +22,5 @@ int main()
     }
 
     vec.push_back(1111111);
-    cout << "Address of a[10] : " << &vec[10];
+    cout << "Address of a[10] : " << &vec[10] << endl;
 }

@@ -18,3 +18,13 @@ void Student::show()
          << ", Grade: " << grade
          << endl;
 }
+
+int Student::ret_grade()
+{
+    return grade;
+}
+
+void Student::upgrade()
+{
+    grade++;
+}
